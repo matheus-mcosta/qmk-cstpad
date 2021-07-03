@@ -1,16 +1,15 @@
-# 00cst
+# cstpad, a Handwired OLED 21key Macropad
 
-![00cst](imgur.com image replace me!)
+![00cst](https://i.imgur.com/GzCb5J6.png)
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [cst](https://github.com/yourusername)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [cst](https://github.com/matheus-mcosta)
+
 
 Make example for this keyboard (after setting up your build environment):
 
-    make 00cst:default
+    make 00cst:default or make 00cst:via (for via support)
 
 Flashing example for this keyboard:
 
