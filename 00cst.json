@@ -1,6 +1,6 @@
 {
   "name": "cst pad",
-  "vendorId": "0xFEED",
+  "vendorId": "0x6373",
   "productId": "0x0901",
   "lighting": "none",
   "matrix": {
@@ -55,7 +55,7 @@
           "w": 2
         },
         "5,0",
-        "5,1"
+        "5,2"
       ]
     ]
   
