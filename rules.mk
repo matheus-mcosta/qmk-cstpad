@@ -9,8 +9,8 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = atmel-dfu
-
+BOOTLOADER = caterina
+SRC += ssd1306.c
 # Build Options
 #   change yes to no to disable
 #
@@ -29,5 +29,7 @@ MIDI_ENABLE = no            # MIDI support
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 AUDIO_ENABLE = no           # Audio output on port C6
 LTO_ENABLE = yes
+WPM_ENABLE = yes
+
 
 OLED_DRIVER_ENABLE = yes
